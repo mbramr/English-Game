@@ -6,6 +6,8 @@ import textwrap
 
 import shutil
 
+import inspect
+
 import tempfile
 
 class Game(cmd.Cmd):
@@ -14,21 +16,29 @@ class Game(cmd.Cmd):
         cmd.Cmd.__init__(self)
 			
         self.dbfile = tempfile.mktemp()
-        shutil.copyfile("gamedb", self.dbfile)
-      
-      
+        shutil.copyfile("game.db", self.dbfile) 
       
         self.loc = get_room(1, self.dbfile)
         
         self.look()
     
     def move(self, dir):
-        newroom = self.loc._neighbors(dir)
+        print(self.loc) 
+        inspect.getmembers(self.loc)
+        newroom = self.loc._neighbor(dir)
+        print ("abcd")
         if newroom is None:
             print("you can't go that way")
         else:
-            self.loc = get_room(newroom.dbfile)
+            self.loc = get_room(newroom, self.dbfile)
             self.look()
+            
+        if newroom==13:
+            exit()
+          
+    def use(self, args):
+        print(self.loc) 
+        print("Code a use function")
           
     def look(self):
         print(self.loc.name)
@@ -65,7 +75,7 @@ class Game(cmd.Cmd):
     
     def do_save(self, args):
         """Save the game"""
-        shutil.copyfile(slef.dbfile, args)
+        shutil.copyfile(self.dbfile, args)
         print("The game was saved to {O}".format(args))
       
     def do_quit(self, args):
@@ -74,6 +84,10 @@ class Game(cmd.Cmd):
         return True	
     def do_xyssy(self, args):
         print('''A hollow voice says, "This isnt Frotran..."''')
+        
+    def do_use(self, args):
+        """Specify a tool from your backpack"""
+        self.use(args)
         
 if __name__ == "__main__":
  

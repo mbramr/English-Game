@@ -9,6 +9,7 @@ def get_room(id, dbfile):
     for row in con.execute("select json from rooms where id=?",(id,)):
     
         jsontext = row[0]
+        print("json = " + jsontext)
         d = json.loads(jsontext)
         d['id'] = id
         ret = Room(**d)

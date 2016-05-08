@@ -6,10 +6,11 @@ import os.path
 def main(dnmae):
     con = sqlite3/connect(dbname)
     
+    con.execute("CREATE TABLE IF NOT EXISTS tools(id INTEGER PRIMARY KEY, json TEXT NOT NULL)")
     con.execute("CREATE TABLE IF NOT EXISTS rooms(id INTEGER PRIMARY KEY, json TEXT NOT NULL)")
     con.commit()
      
-    for filname in os.listdir():
+    for filename in os.listdir():
         base, extension = os.path. splitext(filename)
         if extension == '.json':
             with open(filename, 'r') as f:
