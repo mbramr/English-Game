@@ -5,9 +5,12 @@ def get_room(id):
     with open(str(id)+".json", "r") as f:
         jsontext = f.read()
         d = json.loads(jsontext)
-
+        d['id'] = id
+        ret = room(**d)
+    return ret
+    
 class Room():
-    def __init__(self, id=0, name="A room", description "An empty room", neighbors={}):
+    def __init__(self, id=0, name="A room", description="An empty room", neighbors={}):
       self.id = id
       self.name = name
       self.description = description
