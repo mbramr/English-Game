@@ -72,7 +72,7 @@ class Game(cmd.Cmd):
         """Leaves the game"""
         print("Thank you for playing")
         return True	
-    def do_xyssy(self, args)
+    def do_xyssy(self, args):
         print('''A hollow voice says, "This isnt Frotran..."''')
         
 if __name__ == "__main__":
