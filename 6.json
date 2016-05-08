@@ -1,0 +1,5 @@
+{ "name" : "Stained Glass Lounge",
+"description: "This lounge features a tall, two story...",
+  "neighbors" : {"up" ; 9, "n" : 7, down : 3}
+
+}
