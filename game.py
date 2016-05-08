@@ -2,7 +2,10 @@ import cmd
 
 from room import get_room
 
+import textwrap
+
 class Game(cmd.Cmd):
+    
     def __init__(self):
         cmd.Cmd.__init__(self)
 			
@@ -16,12 +19,21 @@ class Game(cmd.Cmd):
             print("you can't go that way")
         else:
             self.loc = get_room(newroom)
+            self.look()
           
     def look(self):
         print(self.loc.name)
         print("")
-        print(self.loc.description)
-      
+        for line in textwrap.wrap(self.loc.description, 72):
+            print(line)
+    
+    def do_up(self, args):
+        """Go up"""
+        self.move('up')
+        
+    def do_down(self, args):
+        """Go down"""
+        self.move('down')
     
     def do_n(self, args):
         """Go north"""

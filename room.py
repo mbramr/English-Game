@@ -2,11 +2,13 @@ import json
 
 def get_room(id):
     ret = None
+    
     with open(str(id)+".json", "r") as f:
         jsontext = f.read()
         d = json.loads(jsontext)
         d['id'] = id
-        ret = room(**d)
+        ret = Room(**d)
+        
     return ret
     
 class Room():
@@ -15,6 +17,7 @@ class Room():
       self.name = name
       self.description = description
       self.neighbors = neighbors
+      
     def _neighbor(self, direction):
         if direction in self.neighbors:
           return self.neighbors[direction]
