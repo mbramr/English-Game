@@ -17,6 +17,11 @@ class Game(cmd.Cmd):
 			
         self.dbfile = tempfile.mktemp()
         shutil.copyfile("game.db", self.dbfile) 
+        
+        print("Hello weary traveller. My name is Zork. What is your name?")
+        self.name = input()
+        
+        print("Nice to meet you %s" % (self.name))
       
         self.loc = get_room(1, self.dbfile)
         
@@ -26,9 +31,9 @@ class Game(cmd.Cmd):
         print(self.loc) 
         inspect.getmembers(self.loc)
         newroom = self.loc._neighbor(dir)
-        print ("abcd")
+        #print ("abcd")
         if newroom is None:
-            print("you can't go that way")
+            print("You can't go that way")
         else:
             self.loc = get_room(newroom, self.dbfile)
             self.look()

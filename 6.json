@@ -1,5 +1,4 @@
-{ "name" : "Stained Glass Lounge",
-"description: "This lounge features a tall, two story...",
-  "neighbors" : {"up" ; 9, "n" : 7, down : 3}
-
+{ "name" : "Restroom",
+  "description" : "This restroom is spacious, featuring 5 bathroom stalls, all of which appear to be occupied.  The exit lies to the south",
+  "neighbors" : {"n" : 7, "w" : 5}
 }
