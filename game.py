@@ -22,6 +22,8 @@ class Game(cmd.Cmd):
         self.name = input()
         
         print("Nice to meet you %s" % (self.name))
+          
+      
       
         self.loc = get_room(1, self.dbfile)
         

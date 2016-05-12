@@ -1,4 +1,4 @@
 { "name" : "Restroom",
-  "description" : "This restroom is spacious, featuring 5 bathroom stalls, all of which appear to be occupied.  The exit lies to the south",
+  "description" : "You are at the corner between two hallways, you may continue to the north.",
   "neighbors" : {"n" : 7, "w" : 5}
 }

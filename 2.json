@@ -1,3 +1,8 @@
-{ "name" : "Great Hall",
-  "description" : "You're standing in the center of the Ohio Union's Great Hall, which stretches to the east and west.  Looking up, you can see the balconies of the two upper floors wrapping around the hall.  To the north, the entrances to a meeting room can be seen propped open.",
-  "neighbors" : {"s" : 3, "n" : 1}
+{  
+   "name":"Room",
+   "description":"There is a door to the south.",
+   "neighbors":{  
+      "s":3,
+      "n":1
+   }
+}

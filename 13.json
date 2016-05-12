@@ -1,4 +1,4 @@
 { "name" : "Registration Table",
-  "description" : "A long table stand before you covered in free paraphenalia for your enjoyment.  A volunteer behind the table smiles and says, \"Welcome to PyOhio!\"",
+  "description" : "There is a long spiral flight of stairs going down to a sweet smelling room",
   "neighbors" : {"w" : 12,  "down" : 14}
 }

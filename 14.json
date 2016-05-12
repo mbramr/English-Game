@@ -1,4 +1,4 @@
-{ "name" : " ",
-  "description" : " "",
+{ "name" : " The next room ",
+  "description" : " Will this actually work? "",
   "neighbors" : {"up" : 13 , "s" : 15 }
 }
