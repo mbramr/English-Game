@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"n" : 20, "s" : 22 }
+{ 
+  "name" : "21. Jack tried to kill Ralph by:",
+  "description":"   e - Cutting his throat \n   s - setting the island on fire \n   n -  setting traps all over the island \n   down - Feeding him rotten meat ",
+  "neighbors" : {
+    "n" : 20, 
+    "s" : 22 
+  }
 }

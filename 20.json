@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"e" : 19, "s" : 21 }
+{ 
+  "name" : "20. What was Ralph's idea to help the group get rescued?",
+  "description":"   n - flashing mirrors \n   e - post lookouts \n   up -  signals in the sand \n   s - smoke on the mountain ",
+  "neighbors" : {
+    "e" : 19, 
+    "s" : 21 
+  }
 }

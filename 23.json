@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"e" : 22, "s" : 24  }
+{ 
+  "name" : "23. Percival says that",
+  "description":"   w - there is no beast \n  up - the beast was only Simon \n   e -  the beast was a wild animal \n   s - the beast came out of the sea ",
+  "neighbors" : {
+    "e" : 22, 
+    "s" : 24  
+  }
 }

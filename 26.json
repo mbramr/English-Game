@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"up" : 25, "e" : 27}
+{ 
+  "name" : "26. Jack, Ralph and ________ went to look for the beast ",
+  "description":"   up - Simon \n   e - Roger \n   w -  Piggy \n   down - Percival ",
+  "neighbors" : {
+    "up" : 25, 
+    "e" : 27
+  }
 }

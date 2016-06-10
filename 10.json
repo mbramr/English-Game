@@ -1,6 +1,6 @@
 {  
-   "name":"Grand Ballroom",
-   "description":" There is an exit sign on the stairs going to the second floor.",
+   "name":"10. The psychopath's full name is:",
+   "description":"   e - Jack Madison \n   s - Jack Moncton \n   up - Jack Merridew  \n   w - Jake Jones ",
    "neighbors":{  
       "s":9,
       "up":11

@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"n" : 15, "s" : 17 }
+{ 
+  "name" : "16. When the officer arrives ",
+   "description":"   n - The boys are belligerent \n   up - Ralph gets killed in front of the officer \n   s -  Everyone is ashamed and cries \n   down - Jack apologizes to Ralph ",
+  "neighbors" : {
+    "n" : 15, 
+    "s" : 17 
+  }
 }

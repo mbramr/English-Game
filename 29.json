@@ -1,4 +1,9 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"w" : 28, "up" : 30}
+{ 
+  "name" : "29. Samneric ",
+  "description":"   e - Escape Jack \n   s - Stay with Ralph to the end \n   w - Are prisoners until the end  \n   up - finally support Jack",
+  "neighbors" : {
+    "w" : 28, 
+    "up" : 30,
+    "down": 1
+  }
 }

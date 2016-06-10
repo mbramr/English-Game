@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"n" : 14, "s" : 16 }
+{ 
+  "name" : "15. The hunters left a present for the beast, what is it? ",
+  "description":"   n - The tail \n   down - Piglets \n   s - The head  \n   up - The feet ",
+  "neighbors" : {
+    "n" : 14, 
+    "s" : 16 
+  }
 }

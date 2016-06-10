@@ -1,4 +1,8 @@
-{ "name" : "Third Floor Stairs",
-  "description" : "You may continue to the north.",
-  "neighbors" : {"w" : 8, "n" : 10 }
+{  
+   "name":"9. After the first island fire Piggy said a lot, but forgot to say",
+   "description":"   w - make shelters first \n   s - didn't have time to collect all the names \n   up - the rescuers couldn't see where they put the fire  \n   n - the boy with the mulberry mark was missing ",
+   "neighbors":{  
+      "w":8,
+      "n":10
+   }
 }

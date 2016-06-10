@@ -1,4 +1,8 @@
-{ "name" : "Round Room",
-  "description" : "On the third floor you and see the rising Eastern sun through the large windows near the stairs.",
-  "neighbors" : {"down" : 11,  "e" : 13}
+{  
+   "name":"12. Simon believed the beast was",
+   "description":"   down - the devil \n   s - the parachutist \n   up - just a pig  \n   e - a part of him ",
+   "neighbors":{  
+      "down":11,
+      "e":13
+   }
 }

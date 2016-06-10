@@ -1,4 +1,8 @@
-{ "name" : "Registration Table",
-  "description" : "There is a long spiral flight of stairs going down to a sweet smelling room",
-  "neighbors" : {"w" : 12,  "down" : 14}
+{  
+   "name":"13. Simon tried to _____, but was mistaken for the beast.",
+   "description":"   e - the conch from Ralph \n   w - put out the fire \n   down -  tell the others about the dead man \n   up - get the meat away from Jack ",
+   "neighbors":{  
+      "w":12,
+      "down":14
+   }
 }

@@ -1,0 +1,19 @@
+{  
+   "name":"Piggy dies",
+   
+   
+   "description":"   e -  \n  s -  \n   up -   \n   down -  ",
+   
+   
+   
+   
+   "neighbors":{  
+      
+      "s":3,
+      
+      "n":1
+   
+   }
+
+   
+}

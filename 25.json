@@ -1,6 +1,10 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"n" : 24, "down" : 26}
+{ 
+  "name" : "25. The boy Jack cruelly beat for no reason was ",
+  "description":"   e - Maurice \n   up - Robert \n   down -  Wilfred \n   n - Henry ",
+  "neighbors" : {
+    "n" : 24, 
+    "down" : 26
+  }
 }
 
 

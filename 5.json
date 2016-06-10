@@ -1,4 +1,8 @@
-{ "name" : "Restroom",
-  "description" : "The passage continues to the east",
-  "neighbors" : {"w" : 4, "e" : 6}
+{  
+   "name":"5. Jack always hunts because",
+   "description":"   e - He believes it is the right thing to do  \n   s - Because he was forced to \n   up - it is an appealing sport  \n   w - Ralph wants him to gather meat ",
+   "neighbors":{  
+      "up":4,
+      "e":6
+   }
 }

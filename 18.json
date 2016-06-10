@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"e" : 17, "s" : 19 }
+{ 
+  "name" : "18. The only responsible person who helped Ralph with the huts was ",
+  "description":"   s - Simon \n   e - Jack \n   w -  Piggy \n   down - Samneric ",
+  "neighbors" : {
+    "e" : 17, 
+    "s" : 19 
+  }
 }

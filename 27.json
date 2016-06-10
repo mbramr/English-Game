@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"w" : 26, "up" : 28}
+{ 
+  "name" : "27. Why weren't they rescued the first time?  ",
+  "description":"   up - the choir was busy hunting \n   s -  the boys had no way to build a fire \n   n - they didn't signal because they thought it was the enemy  \n   w - they didn't see the ship ",
+  "neighbors" : {
+    "w" : 26, 
+    "up" : 28
+  }
 }

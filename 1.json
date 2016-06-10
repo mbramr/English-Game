@@ -1,6 +1,8 @@
 {
-  "description": "Description, There is another door to the south.",
-  "neighbors": {
-    "s": 2
+    "name": "1.Finish this sentence >> The conch was...",
+    "description": "    n - kept by Ralph as a reminder of his experience \n   up - destroyed by Jack \n down - thrown away by Ralph in his desperation \n    s - destroyed with Piggy \n ",
+    "neighbors": {
+      "s": 2,
+      "up": 29
   }
 }

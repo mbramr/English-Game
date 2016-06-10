@@ -1,4 +1,8 @@
-{ "name" : "Great Hall Meeting Room",
-  "description" : "The long room continues to the east.",
-  "neighbors" : {"s" : 7, "e" : 9}
+{  
+   "name":"8. The thing that Samneric think is the beast is actually a ",
+   "description":"   n - buzzard \n   s - helicopter \n   w - flock of gulls  \n   e - parachutist ",
+   "neighbors":{  
+      "s":7,
+      "e":9
+   }
 }

@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"n" : 23, "s" : 25 }
+{ 
+  "name" : "24. Ralph said _____ were the only thing that would maintain their civility   ",
+  "description":"   w - ideas \n   e - scruples \n   n -  values \n   s - rules ",
+  "neighbors" : {
+    "n" : 23, 
+    "s" : 25 
+  }
 }

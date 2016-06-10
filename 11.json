@@ -1,4 +1,8 @@
-{ "name" : "Outside the Round Room",
-  "description" : "You may continue up the stairs to the third floor.",
-  "neighbors" : {"down" : 10, "up" : 12}
+{  
+   "name":"11. Ralph asks Samneric what the tribe is going to do to him, they say:",
+   "description":"   up - Roger sharpened a stick at both ends \n   e - Wait and see \n   s - We have no idea  \n   down - kill the pig, watch it bleed ",
+   "neighbors":{  
+      "up":12,
+      "down":10
+   }
 }

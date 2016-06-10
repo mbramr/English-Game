@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"n" : 18, "w" : 20 }
+{ 
+  "name" : " 19. The boys came from ",
+  "description":"   n - America \n   s - Canada \n   w - Britain  \n   down - Mexico ",
+  "neighbors" : {
+    "n" : 18, 
+    "w" : 20 
+  }
 }

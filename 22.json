@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"n" : 21, "w" : 23  }
+{ 
+  "name" : "22. Piggy wanted to use the conch to  ",
+  "description":"   w - call the others \n   s - frighten the others \n   up -  form a club \n   n - pay rescuers ",
+  "neighbors" : {
+    "n" : 21, 
+    "w" : 23  
+  }
 }

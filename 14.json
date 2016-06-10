@@ -1,4 +1,8 @@
-{ "name" : " The next room ",
-  "description" : " Will this actually work? "",
-  "neighbors" : {"up" : 13 , "s" : 15 }
+{  
+   "name":"14. Why did Jack not kill the pig the first time?",
+   "description":"   w - he was being attacked by another pig\n  up - he fell down a small cliff \n   s - He was not yet completely uncivilized \n   e - he didn't want to do it in front of everyone ",
+   "neighbors":{  
+      "up":13,
+      "s":15
+   }
 }

@@ -1,6 +1,6 @@
 {  
-   "name":"Room",
-   "description":"There is a door to the south.",
+   "name":"2. Piggy dies...",
+   "description":"   e - as he crawls out of the forest \n   s - at Castle Rock \n   n - in the fight at the hut \n   down - on the beach ",
    "neighbors":{  
       "s":3,
       "n":1

@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"n" : 16, "w" : 18 }
+{ 
+  "name" : "17. When their plane crashed, the boys were going ",
+   "description":"   e - to Europe to spend their summer vacation \n   s - to visit their fathers \n   w - to a less war torn area.  \n   n - home after a vacation ",
+  "neighbors" : {
+    "n" : 16, 
+    "w" : 18 
+    }
 }

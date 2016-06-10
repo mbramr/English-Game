@@ -1,4 +1,8 @@
-{ "name" : "Ballroom Hallway",
-  "description" : "The exit to this room is to the north.",
-  "neighbors" : {"s" : 6, "n" : 8 }
+{  
+   "name":"7. Who first said he should be chief?",
+   "description":"   n - Jack \n   e  - Simon \n   up - Piggy \n   s - Ralph ",
+   "neighbors":{  
+      "s":6,
+      "n":8
+   }
 }

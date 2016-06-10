@@ -1,6 +1,6 @@
 {  
-   "name":"Hall",
-   "description":"There is an entrance to the south.",
+   "name":"3. ______ was used as a pretend pig.",
+   "description":"   n - beastie \n   s - Robert \n   up - littlun \n   w - Piggy ",
    "neighbors":{  
       "n":2,
       "s":4

@@ -1,4 +1,8 @@
-{ "name" : " ",
-  "description" : " "",
-  "neighbors" : {"down" : 27, "e" : 29 }
+{ 
+  "name" : "28. Simon would often sneak off at night to  ",
+  "description":"   w - swim \n   down - explore the island \n   e -  think in his private place \n   up - work on the huts ",
+  "neighbors" : {
+    "down" : 27, 
+    "e" : 29 
+  }
 }

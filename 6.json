@@ -1,4 +1,8 @@
-{ "name" : "Restroom",
-  "description" : "You are at the corner between two hallways, you may continue to the north.",
-  "neighbors" : {"n" : 7, "w" : 5}
+{  
+   "name":"6.Ralph's group was attacked for",
+   "description":"   w - littluns  \n   s - the conch  \n   up - meat  \n   n - Piggy's glasses ",
+   "neighbors":{  
+      "n":7,
+      "w":5
+   }
 }

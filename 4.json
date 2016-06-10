@@ -1,4 +1,8 @@
-{ "name" : "Out-of-Service Restroom",
-  "description" : "There is the starting of a hallway to the east",
-  "neighbors" : {"n" : 3, "e" : 5}
+{  
+   "name":"4. <<Grownups know things . . . They'd meet and have tea and discuss. Then things 'ud be all right.>> Was said by:",
+   "description":"   n - Ralph \n   down - Piggy \n   e - Simon \n   up - Jack",
+   "neighbors":{  
+      "n":3,
+      "down":5
+   }
 }

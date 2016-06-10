@@ -10,6 +10,10 @@ import inspect
 
 import tempfile
 
+wrapper = textwrap.TextWrapper()
+wrapper.replace_whitespace=False
+wrapper.width=250
+
 class Game(cmd.Cmd):
     
     def __init__(self):
@@ -17,11 +21,45 @@ class Game(cmd.Cmd):
 			
         self.dbfile = tempfile.mktemp()
         shutil.copyfile("game.db", self.dbfile) 
+        hello_message=""" 
         
-        print("Hello weary traveller. My name is Zork. What is your name?")
+        You have woken up in a dark, dirty and horrible cell. The only escape is to navigate through the labyrinth of rooms.
+        
+        Each room has a question that if answered correclly will bring you to the next room.
+        
+        If all the questions are answered correctly you have completed the game succesfully. 
+        
+        You are then free from your underground prison and are free forever. 
+        
+        In order to navigate through the rooms you must select one of the displayed directions.
+
+        The right answer to the question is the correct direction of travel to reach the end.
+        
+        There are six directions:
+        
+          North = n
+          South = s
+          East  = e 
+          West  = w
+          Up    = up 
+          Down  = down
+          
+        Each question will only have four possible directions.
+        
+        One of the wrong answers will bring you back to the previous question for you to rinse and repeat.
+                
+        
+        Would you like to start?
+        
+        """        
+        print(hello_message)
         self.name = input()
         
-        print("Nice to meet you %s" % (self.name))
+        print("""
+        
+        %s, we shall start.
+        
+        """ % (self.name))
           
       
       
@@ -30,7 +68,7 @@ class Game(cmd.Cmd):
         self.look()
     
     def move(self, dir):
-        print(self.loc) 
+        ##print(self.loc) 
         inspect.getmembers(self.loc)
         newroom = self.loc._neighbor(dir)
         #print ("abcd")
@@ -40,7 +78,13 @@ class Game(cmd.Cmd):
             self.loc = get_room(newroom, self.dbfile)
             self.look()
             
-        if newroom==13:
+        if newroom==29:
+            print("""
+            
+            Thank you for playing, you have succesfully completed the game 
+            
+            """)
+            
             exit()
           
     def use(self, args):
@@ -50,7 +94,7 @@ class Game(cmd.Cmd):
     def look(self):
         print(self.loc.name)
         print("")
-        for line in textwrap.wrap(self.loc.description, 72):
+        for line in wrapper.wrap(self.loc.description):
             print(line)
     
     def do_up(self, args):
